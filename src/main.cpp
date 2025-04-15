@@ -1,12 +1,17 @@
 #include <Geode/Geode.hpp>
-#include <Geode/modify/CCScheduler.hpp>
+#include <Geode/modify/GameManager.hpp>
 
 using namespace geode::prelude;
 
-class $modify(CCScheduler) {
-public:
-    void tick(float dt) {
-        dt = 1.0f / 240.0f; // Set to 240 FPS wooooo
-        return $orig(dt);
+// If there's a global frame delta or tick method you want to patch,
+// hook into a reliable method like this:
+
+class $modify(GameManager) {
+    void setGameVariable(const std::string& key, bool value) {
+        if (key == "v_sync") {
+            // force disable vsync or TPS cap toggle
+            value = false;
+        }
+        GameManager::setGameVariable(key, value);
     }
-}:
+};
