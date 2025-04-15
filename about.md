@@ -8,6 +8,10 @@ In the pause menu click the "TPS" button and the mod's settings menu will pop up
 
 this mod is not finished yet so idk yea i need to actually code tha thingy.
 
+## Unsuported/Unstable Devices
+
+I do not recommend using this mod on weaker and/or older iphones.
+
 ## To Do List
 
 1. Code lol
