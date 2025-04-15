@@ -35,7 +35,7 @@
         "input": false
     }
     },
-                "bool-setting-example": {
+                "bool-setting-example2": {
     "type": "bool",
     "name": "vsync",
     "description": "disable/enable vsync",
