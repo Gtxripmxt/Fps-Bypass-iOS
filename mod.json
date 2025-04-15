@@ -34,6 +34,12 @@
         "slider-step": 1,
         "input": false
     }
+                "bool-setting-example": {
+    "type": "bool",
+    "name": "vsync",
+    "description": "disable/enable vsync",
+    "default": true
+}
 }
 
 	           },
@@ -43,3 +49,4 @@
         ]
     }
 }
+
