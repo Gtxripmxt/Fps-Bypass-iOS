@@ -41,7 +41,7 @@
     "name": "vsync",
     "description": "disable/enable vsync",
     "default": true
-}
+},
 
 	 "resources": {
         "sprites": [
