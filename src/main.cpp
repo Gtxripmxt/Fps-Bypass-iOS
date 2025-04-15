@@ -6,8 +6,8 @@ using namespace geode::prelude;
 class $modify(MyScheduler, CCScheduler) {
 public:
     void tick(float dt) {
-        // Force delta time to simulate higher TPS (e.g. 240 FPS)
+        // Simulate high TPS by reducing frame delta
         dt = 1.0f / 240.0f;
-        CCScheduler::tick(dt); // call original
+        $orig(dt); // ✅ call the original tick method correctly
     }
 };
