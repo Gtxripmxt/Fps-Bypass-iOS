@@ -17,7 +17,7 @@
     "name": "tps bypass",
     "description": "enable tps bypass",
     "default": false
-},
+    },
 		"int-setting-example": {
     "type": "int",
     "name": "tps value",
