@@ -32,21 +32,22 @@
         "big-arrow-step": 5,
         "slider": true,
         "slider-step": 1,
-        "input": false
-	    
-    }
-			              },
+        "input": false	    
+    },
                 "bool-setting-example": {
     "type": "bool",
     "name": "vsync",
     "description": "disable/enable vsync",
     "default": true
-},
-
+                                        },
+	         }
 	 "resources": {
         "sprites": [
             "resources/button.png"
         ]
     }
-}
+                  
 
+	
+
+}
