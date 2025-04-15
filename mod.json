@@ -3,28 +3,28 @@
 	"gd": {
 		"ios": "2.2074"
 	},
-	"id": "gtxripmxt.fps_bypass_for_ios",
-	"name": "Fps Bypass for iOS",
+	"id": "gtxripmxt.tps_bypass_for_ios",
+	"name": "Tps Bypass for iOS",
 	"version": "v1.0.0",
 	"developer": "Gtxripmxt",
-	"description": "A simple fps bypass mod for ios :D",
+	"description": "A simple tps bypass mod for ios :D",
 	"links": {
             "source": "https://github.com/Gtxripmxt/Fps-Bypass-iOS"
 	},
 	"settings": {
 		"bool-setting-example": {
     "type": "bool",
-    "name": "fps bypass",
-    "description": "enable fps bypass",
+    "name": "tps bypass",
+    "description": "enable tps bypass",
     "default": false
 },
 		"int-setting-example": {
     "type": "int",
-    "name": "fps value",
-    "description": "set fps value 5-720",
-    "default": 60,
+    "name": "tps value",
+    "description": "set tps value 5-2000",
+    "default": 240,
     "min": 5,
-    "max": 720,
+    "max": 2000,
     "controls": {
         "arrows": true,
         "arrow-step": 1,
